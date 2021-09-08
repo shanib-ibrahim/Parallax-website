@@ -1,0 +1,14 @@
+@include media-md {
+    nav {
+        padding: 2rem 1rem;
+    }
+    .content {
+        &__images {
+            flex-direction: column;
+            padding: 1rem 2rem;
+        }
+        &__text {
+            padding: 2rem 3rem;
+        }
+    }
+}
